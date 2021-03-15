@@ -94,7 +94,7 @@ main {
 }
 
 .btn-no-style:hover {
-  background: yellow;
+  background: none;
   color: #3486eb;
 }
 
@@ -161,11 +161,4 @@ footer {
 .rows{
     display:flex;
     flex-direction: column;
-}
-
-body{
-  background-color: red;;
-}
-.button{
-  background-color: green;
 }
