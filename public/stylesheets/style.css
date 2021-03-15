@@ -10,14 +10,64 @@ body, html {
   color: #333;
 }
 
+#head-bar {
+  background-color:brown;
+}
+
+.navbar-item {
+  background-color: rgb(233, 199, 155);
+  padding: 3px;
+  border-radius: 3px;
+
+}
+.button-is-danger {
+  background-color: rgb(233, 199, 155);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.button-is-danger:hover {
+  color: #3486eb;
+}
+
+a:hover {
+  color: #3486eb;
+}
+
+
+.techie-title {
+  background-color: rgb(233, 199, 155);
+  padding: 7px;
+  border-radius: 15px;
+}
+
+footer {
+  background-color:brown;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
   color: black;
 }
 
-a:hover {
-  color: #3486eb;
+.comment {
+  background-color: rgb(233, 199, 155);
+}
+
+.dash-time {
+  width: 30%;
+  background-color: rgb(233, 199, 155);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 50%;
+  height: 60px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 button {
@@ -106,6 +156,7 @@ main {
   background-color: #ff643d;
 }
 
+
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -163,6 +214,3 @@ footer {
     flex-direction: column;
 }
 
-.navbar-item {
-  color:olive
-}
