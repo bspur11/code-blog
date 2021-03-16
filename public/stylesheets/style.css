@@ -64,10 +64,53 @@ a {
 
 input[type=text] {
   width: 50%;
+  height: 25px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.input-body {
+  background-color:rgb(243, 245, 123);
+  width: 80%;
   height: 60px;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
+}
+
+.dash-user {
+  width: 100%;
+  background-color: rgb(233, 199, 155);
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.card-box {
+  padding: 5px;
+}
+
+.post-content {
+  background-color: rgb(248, 215, 152);
+  padding: 7px 10px;
+}
+
+.card-head {
+  background-color: rgb(235, 222, 222);
+  border-color: sienna;
+  border-radius: 15px 15px 0 0;
+}
+
+.post-content {
+  border-radius: 0 0 10px 10px;
+}
+
+.main-temp {
+  background-color: tomato;
+}
+
+.input {
+  background-color:rgb(243, 245, 123);
 }
 
 button {
