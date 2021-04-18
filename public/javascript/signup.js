@@ -8,7 +8,7 @@ async function signupFormHandler(event) {
     const github = document.querySelector('#github-signup').value.trim();
   
     if (username && email && password) {
-      const response = await fetch('/api/users', {
+      const response = await fetch('/api/user', {
         method: 'post',
         body: JSON.stringify({
           username,
